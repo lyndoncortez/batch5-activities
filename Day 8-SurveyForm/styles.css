@@ -170,3 +170,9 @@ i {
     font-size: 2rem;
     margin-left: .5em;
 }
+
+@media (max-width: 1024px) {
+    .container {
+        width: 90%;
+    }
+}
