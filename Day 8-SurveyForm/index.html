@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/033affd47f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <a href="#" class="nav-link">EveryJuan can Code</a>
+        </nav>
+    </header>
+    <section class="container">
+        <div>
+            <h1 id="title">Survey Form</h1>
+            <p id="description">Thank you for taking the time to help us improve the platform.</p>
+        </div>
+        <form action="" id="survey-form" class="rounded-form">
+            <div class="form-floating">
+                <label for="name" id="name-label">Name</label>
+                <input type="text" id="name" class="form-control" placeholder="Enter your Name" required>
+            </div>
+            <div class="form-floating">
+                <label for="email" id="email-label">Email</label>
+                <input type="email" id="email" class="form-control" placeholder="Enter your Email" required>
+            </div>
+            <div class="form-floating">
+                <label for="number" id="number-label">Age</label>
+                <input type="number" id="number" class="form-control" placeholder="Enter your Age" min="7" max="100" required>
+            </div>
+            <div class="form-floating drop">
+                <label for="role">Select your current role:</label>
+                <select class="form-select" id="dropdown" name="role">
+                    <option value="student">Student</option>
+                    <option value="full">Full Time Job</option>
+                    <option value="learner">Full Time Learner</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="drop">
+                <label for="recommend">Would you recommend EveryJuan can Code to a friend?</label>
+            </div>
+            <div class="form-check">
+                <input type="radio" name="recommend" id="radio" value="definitely" class="form-check-input">
+                <label for="recommend" class="form-check-label">
+                    Definitely
+                </label>
+            </div>
+            <div class="form-check middle">
+                <input type="radio" name="recommend" id="radio" value="definitely" class="form-check-input">
+                <label for="recommend" class="form-check-label">
+                    Maybe
+                </label>
+            </div>
+            <div class="form-check middle">
+                <input type="radio" name="recommend" id="radio" value="definitely" class="form-check-input">
+                <label for="recommend" class="form-check-label">
+                    Not Sure
+                </label>
+            </div>
+            <div class="form-floating drop">
+                <label for="feature">What is your favorite feature?</label>
+                <select class="form-select" id="feature" name="feature">
+                    <option value="challenges">Challenges</option>
+                    <option value="projects">Projects</option>
+                    <option value="community">Community</option>
+                    <option value="open-source">Open Source</option>
+                </select>
+            </div>
+            <div class="drop">
+                <label for="recommend">What would you like to see improved?</label>
+            </div>
+            <div class="form-check">
+                <input type="checkbox" id="frontend" value="frontend" class="form-check-input">
+                <label for="frontend" class="form-check-label">
+                    Front-end Projects
+                </label>
+            </div>
+            <div class="form-check box">
+                <input type="checkbox" id="backend" value="backend" class="form-check-input">
+                <label for="backend" class="form-check-label">
+                    Back-end Projects
+                </label>
+            </div>
+            <div class="form-check box">
+                <input type="checkbox" id="challenges" value="challenges" class="form-check-input">
+                <label for="challenges" class="form-check-label">
+                    Challenges
+                </label>
+            </div>
+            <div class="form-check box">
+                <input type="checkbox" id="forum" value="forum" class="form-check-input">
+                <label for="forum" class="form-check-label">
+                    Forum
+                </label>
+            </div>
+            <div class="form-check box">
+                <input type="checkbox" id="courses" value="courses" class="form-check-input">
+                <label for="courses" class="form-check-label">
+                    Courses
+                </label>
+            </div>
+            <div class="drop">
+                <label for="recommend">Any comments or suggestions?</label>
+            </div>
+            <div>
+                <textarea id="textArea" cols="30" rows="5" class="form-control text-area" placeholder="Leave a comment here"></textarea>
+                <label for="textArea"></label>
+            </div>
+            <div class="button">
+                <button class="btn" type="submit" id="submit">
+                    Submit form
+                </button>
+            </div>
+        </form>  
+    </section>
+    <footer>
+        <div class="footer-text">
+            <a href=""><i class="fab fa-facebook"></i></a>
+            <a href=""><i class="fab fa-linkedin"></i></a>
+            <a href=""><i class="fab fa-github"></i></a>
+        </div>
+        <p>Created by Lyndon Joy Cortez</p>
+    </footer>
+</body>
+</html>
