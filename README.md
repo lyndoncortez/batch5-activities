@@ -4,8 +4,8 @@ You can use the [editor on GitHub](https://github.com/lyndoncortez/batch5-activi
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
--[Chessboard Flex](/Day#201-HTMLBestPractices/index.html)
--[Chessboard Flex](/Day#202-EmailActivity/index.html)
--[Chessboard Flex](/Day#204-TributePage/index.html)
--[Chessboard Flex](/Day#205-ChessboardResponsive/index.html)
--[Chessboard Grid](/Day#206-ChessGrid/index.html)
+- [HTML Best Practice](/Day%201-HTMLBestPractices/index.html)  
+- [Email Activity](/Day%202-EmailActivity/index.html)  
+- [Tribute Page](/Day%204-TributePage/index.html)  
+- [Chessboard Flex](/Day%205-ChessboardResponsive/index.html)  
+- [Chessboard Grid](/Day%206-ChessGrid/index.html)  
