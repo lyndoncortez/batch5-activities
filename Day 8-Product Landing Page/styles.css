@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+img {
+    max-width: 100%;
+    margin-top: 80px;
+}
+
+iframe {
+    margin-bottom: 60px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.hero {
+    margin-top: 40px!important;
+}
+
+.container {
+    display: flex;
+    max-width: 700px;
+    margin: 0px auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.container p {
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.btn {
+    background-color: #ff6b6b;
+    display: inline-block;
+    position: relative;
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow:  2px 2px 2px #b94343 ;
+    padding: 12px 15px;
+    color: white;
+    text-decoration: none;
+    z-index: 0;
+}
+
+.btn-ghost {
+    box-shadow: none;
+    border: none;
+    background-color: #b94343 ;
+    margin-left: 20px;
+}
+
+.btn-ghost:active {
+    transform: none;
+}
+
+.btn:active {
+    box-shadow: 0 0 0;
+    transform: translate(2px, 2px);
+}
+
+nav {
+    background-color: #ff6b6b;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+#feature h2 {
+    text-align: center;
+}
+
+.container-feature {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.feature {
+    width: 30%;
+    margin: 20px 1.66%;
+    padding: 20px 10px 10px 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.feature i {
+    font-size: 30px;
+    color: #ff6b6b;
+    margin-top: 15px;
+}
+
+.feature h2 {
+    font-size: 20px;
+}
+
+.feature p {
+    font-size: 15px;
+}
+
+#video-wrapper h2 {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.bg-pink {
+    background-color: #ff6b6b ;
+}
+
+form {
+    margin-bottom: 30px;
+}
+
+form h2 {
+    color: white;
+}
+
+form .flex {
+   display: flex;
+}
+
+form input[type="email"] {
+    border-radius: 5px;
+    border: 0;
+    color: black;
+    display: inline-block;
+    padding: 10px 25px;
+    width: 100%;
+    flex: 1;
+}
+
+footer {
+    background-color: #ff6b6b;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+
+@media (max-width: 740px) {
+    .feature {
+        width: 100%;
+        margin: 10px;
+    }
+}

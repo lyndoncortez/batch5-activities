@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Permanent+Marker&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/033affd47f.js" crossorigin="anonymous"></script>
+    <title>Product Landing Page</title>
+</head>
+<body>
+    <header id="header">
+        <nav id="nav-bar">
+            <a href="#about" class="nav-link">About</a>
+            <a href="#feature" class="nav-link">Features</a>
+            <a href="#video-wrapper" class="nav-link">Video</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+    
+
+        <div id="about" class="container hero">
+            <div>
+                <h1>Nike Roshe</h1>
+                <p>The best shoe you can have seriously</p>
+                <a class="btn" href="#">Buy Now</a>
+                <img id="header-img" src="./img/hero.png" alt="thumbnail">
+            </div>
+        </div>
+    </header>
+
+        <section id="feature">
+            <h2>Features</h2>
+            <div class="container-feature">
+                <div class="feature">
+                    <i class="fas fa-window-minimize"></i>
+                    <h2>Keep it Minimal</h2>
+                    <p>For the person who loves Nike but also desires a simpler style, the Nike Men's Roshe Run is a must.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-running"></i>
+                    <h2>Run All Day Long</h2>
+                    <p>While this shoe might be lightweight and simplistic in its design, it still retains the trusted comfort of a Nike sneaker. </p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-shoe-prints"></i>
+                    <h2>Strong Features</h2>
+                    <p> 100% synthetic materials offer outstanding durability an d Comfortable Phylon™ cushioning absorbs shock.</p>
+                </div>
+            </div>
+        </section>
+        <section id="video-wrapper">
+            <h2>Video</h2>
+            <div class="container">
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/PW_HrRMeIU0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section id="contact" class="bg-pink">
+            <div class="container">
+                <form id="form" action="/formsubmitted.html">
+                    <h2>Stay up to date with what we're doing</h2>
+                    <div class="flex">
+                        <input id="email" type="email" placeholder="Enter your email">
+                        <input class="btn btn-ghost" type="submit" value="Submit" id="submit">
+                    </div>
+                    
+                </form>
+            </div>
+        </section>
+        <footer>
+            Made by &nbsp; Lyndon Joy Cortez
+        </footer>
+</body>
+</html>
