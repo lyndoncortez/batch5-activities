@@ -1,0 +1,136 @@
+body {
+    background-color: #c8cdbb;
+    padding:0;
+    margin:0;
+}
+
+
+#main {
+    max-width: 900px;
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(187, 201, 165);
+    padding: 10px 0 0 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Arvo', serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0;
+}
+
+.subtitle {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 1.2em;
+    margin: 0 auto;
+}
+
+figure{
+    position:relative;
+    margin:0;
+    padding:0;
+}
+
+figcaption{
+    bottom:8px;
+    right:16px;
+    position:absolute;
+    color:#fff;
+    max-width:35%;
+    text-align: right;
+}
+
+img {
+    width: 900px;
+    max-width: 100%;
+    max-height: 70%;
+    min-height: 100px;
+    margin: 0;
+    display: block;
+    background-color: #fff; 
+}
+
+blockquote{
+    width: 100%;
+    padding:12px 0;
+    font-weight: 300;
+    font-size: 0.8em;
+    font-style: italic;
+    margin: 10px auto 0 auto;
+    color: white;
+    background-color: rgb(126, 143, 98);
+}
+
+p {
+    max-width: 750px;
+    margin: 10px auto;
+}
+
+.initial_paragraph {
+    margin: 40px 8% 0 9%;
+    padding:0 30px 0 0;
+}
+
+.initial_paragraph::first-letter {
+    color:#903;
+    float:left;
+    font-size: 5em;
+    margin: -18px 2px 0 0;
+    padding:0;
+    vertical-align: text-top;
+    font-family: 'Arvo',serif;
+    font-weight:700;
+    
+}
+
+h2{
+    max-width: 750px;
+    margin: 30px auto 10px auto;
+}
+
+footer{
+    max-width: 900px;
+    display:block;
+    margin: 0 auto;
+    background-color: rgb(126, 143, 98);
+    padding: 10px 0 40px 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+footer a{
+    color: #eee;
+}
+
+@media (max-width: 760px) {
+    blockquote{
+        width: auto;
+        padding:12px 12px;
+        font-weight: 300;
+        font-size: 0.7em;
+        font-style: italic;
+        margin: 10px auto 0 auto;
+        color: white;
+        background-color: rgb(126, 143, 98);
+    }
+
+    figcaption{
+        bottom:8px;
+        right:16px;
+        position:absolute;
+        color:#fff;
+        max-width:35%;
+        text-align: right;
+        font-size: 0.8em;
+    }
+
+    #main {
+        padding: 0 12px;
+    }
+}
