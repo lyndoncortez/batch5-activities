@@ -1,0 +1,16 @@
+input {
+    font-size: 2rem;
+    width: 100%;
+}
+
+.center {
+    margin: auto;
+}
+
+div {
+    padding: 20px;
+}
+
+#calc {
+    width: 250px;
+}
