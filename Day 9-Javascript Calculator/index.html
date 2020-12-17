@@ -7,60 +7,32 @@
     <title>Javascript Calculator</title>
 </head>
 <body>
-    <div>
-        <table class="center">
-            <tr>
-                <td>
-                    <input type="button" value="C" onclick="clearButton()">
-                </td>
-                <td colspan="3">
-                    <input type="text" id="calc">
-                </td>
-            </tr>
-    
-            <tr>
-                <td><input type="button" value="+" onclick="displayValue('+')"></td>
-                <td><input type="button" value="1" onclick="displayValue('1')"></td>
-                <td><input type="button" value="2" onclick="displayValue('2')"></td>
-                <td><input type="button" value="3" onclick="displayValue('3')"></td>
-            </tr>
-            <tr>
-                <td><input type="button" value="-" onclick="displayValue('-')"></td>
-                <td><input type="button" value="4" onclick="displayValue('4')"></td>
-                <td><input type="button" value="5" onclick="displayValue('5')"></td>
-                <td><input type="button" value="6" onclick="displayValue('6')"></td>
-            </tr>
-            <tr>
-                <td><input type="button" value="*" onclick="displayValue('*')"></td>
-                <td><input type="button" value="7" onclick="displayValue('7')"></td>
-                <td><input type="button" value="8" onclick="displayValue('8')"></td>
-                <td><input type="button" value="9" onclick="displayValue('9')"></td>
-            </tr>
-            <tr>
-                <td><input type="button" value="/" onclick="displayValue('/')"></td>
-                <td><input type="button" value="." onclick="displayValue('.')"></td>
-                <td><input type="button" value="0" onclick="displayValue('0')"></td>
-                <td><input type="button" value="=" onclick="solve()"></td>
-            </tr>
-            
-        </table>
+    <div id="calculator">
+        <!-- Screen and clear key -->
+        <div class="top">
+            <span class="clear">C</span>
+            <div class="screen"></div>
+        </div>
+        
+        <div class="keys">
+            <!-- operators and other keys -->
+            <span>7</span>
+            <span>8</span>
+            <span>9</span>
+            <span class="operator">+</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span class="operator">-</span>
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span class="operator">÷</span>
+            <span>0</span>
+            <span>.</span>
+            <span class="eval">=</span>
+            <span class="operator">x</span>
+        </div>
     </div>
-    
-
-    <script>
-        function displayValue(val) {
-            document.getElementById("calc").value+=val
-        }
-
-        function solve() {
-            let x = document.getElementById("calc").value
-            let y = eval(x)
-            document.getElementById("calc").value = y
-        }
-
-        function clearButton() {
-            document.getElementById("calc").value = ""
-        }
-    </script>
 </body>
 </html>

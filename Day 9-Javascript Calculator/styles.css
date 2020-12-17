@@ -1,16 +1,70 @@
-input {
-    font-size: 2rem;
-    width: 100%;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font: bold 14px Arial, sans-serif;
 }
 
-.center {
-    margin: auto;
+html {
+    height: 100%;
+    background-color: white;
+    background: radial-gradient(circle, #fff 20%, #ccc);
+    background-size: cover;
 }
 
-div {
-    padding: 20px;
+#calculator {
+    width: 550px;
+    height: 650px;
+    margin: 100px auto;
+    padding: 20px 48px 9px;
+    background: #50656e;
+    background: linear-gradient(#587481, #52788a);
+    border-radius: 3px;
+    box-shadow: 0px 4px #28414d, 0px 10px 15px rgba(0, 0, 0, 0.2);
 }
 
-#calc {
-    width: 250px;
+.top span.clear {
+    float: left;
+}
+
+.top .screen {
+    height: 40px;
+    width:  212px;
+    float: right;
+    padding:  0 10px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
+
+}
+
+.keys, .top {
+    overflow: hidden;
+}
+
+.keys span, .top span.clear {
+    float: left;
+    position: relative;
+    top: 5px;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 100%;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    margin: 10px 18px 11px 0;
+    color: #888;
+    line-height: 36px;
+    text-align: center;
+    user-select: none;
+    transition: all 0.2s ease;
+    font-size: 3rem;
+    padding: 32px;
+}
+
+.keys span.operator {
+	background: #f7b72e;
+    margin-right: 0;
+    color: white;
 }
