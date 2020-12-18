@@ -29,13 +29,17 @@ html {
 }
 
 .top .screen {
-    height: 40px;
-    width:  212px;
+    height: 100px;
+    width:  320px;
     float: right;
-    padding:  0 10px;
+    margin-top: 15px;
+    margin-right: 12px;
+    padding:  20px 10px;
     background: rgba(0, 0, 0, 0.2);
     border-radius: 3px;
     box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
+    font-size: 3rem;
+    color: white;
 
 }
 
