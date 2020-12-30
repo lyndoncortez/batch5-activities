@@ -3,6 +3,7 @@
 💾 You can Preview it here: [Email Activity](https://lyndoncortez.github.io/batch5-activities/Day%202-EmailActivity/index.html)
 <br>
 <br>
+<img src="https://github.com/lyndoncortez/batch5-activities/blob/main/Day%202-EmailActivity/screenshot.png?raw=true">
 The following guide outlines a marking guide for Marking up a letter. Each subtask detailed in the assessment is listed below, along with an explanation of how many marks the task is worth, and the mark breakdown.
 
 
