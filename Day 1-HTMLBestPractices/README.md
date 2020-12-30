@@ -1,6 +1,7 @@
 # Day 1 Assignment
 
-## Webpage assignment for Day1 using HTML and CSS.
+### Webpage assignment for Day1 using HTML and CSS.
+<br>
 
 💾 You can preview it here: [HTML Best Practice](https://lyndoncortez.github.io/batch5-activities/Day%201-HTMLBestPractices/index.html)
 <br>
