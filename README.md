@@ -9,4 +9,4 @@ Below are the list of my projects for AvionSchool Web Development Bootcamp:
 - [Chessboard Grid](/batch5-activities/Day%206-ChessGrid/index.html)  
 - [Product Landing Page](/batch5-activities/Day%208-ProductLandingPage/index.html)  
 - [Survey Form](/batch5-activities/Day%208-SurveyForm/index.html)  
-- [Javascript Calculator](/batch5-activities/Day%209-Javascript%Calculator/index.html) 
+- [Javascript Calculator](/batch5-activities/Day%209-Javascript20%Calculator/index.html) 
