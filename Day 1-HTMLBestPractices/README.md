@@ -1,6 +1,12 @@
-# Day1Assignment
+# Day 1 Assignment
 
 ## Webpage assignment for Day1 using HTML and CSS.
+
+💾 You can preview it here: [HTML Best Practice](https://lyndoncortez.github.io/batch5-activities/Day%201-HTMLBestPractices/index.html)
+<br>
+<br>
+
+<strong>Instructions:</strong>
 
 👉 Find a concept, an idea, or a thought online about a best practice related to web development or software engineering that can be summarized into a statement. Its source can be just be a tweet, or a whole blog post, or from a book, etc.<br /><br />
 👉 Use the statement as a title, then add a description explaining it in your own words, just like how you did in the pre-course's Feyman writing prompts.<br /><br />
