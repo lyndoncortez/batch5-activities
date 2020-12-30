@@ -6,6 +6,7 @@
 💾 You can preview it here: [HTML Best Practice](https://lyndoncortez.github.io/batch5-activities/Day%201-HTMLBestPractices/index.html)
 <br>
 <br>
+<img src="https://github.com/lyndoncortez/batch5-activities/blob/main/Day%201-HTMLBestPractices/screenshot.png?raw=true">
 
 <strong>Instructions:</strong>
 
