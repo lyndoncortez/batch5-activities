@@ -10,3 +10,7 @@ Below are the list of my projects for AvionSchool Web Development Bootcamp:
 - [Product Landing Page](/batch5-activities/Day%208-ProductLandingPage/index.html)  
 - [Survey Form](/batch5-activities/Day%208-SurveyForm/index.html)  
 - [Javascript Calculator](/batch5-activities/Day%209-Javascript%20Calculator/index.html) 
+- [Javascript Chess](/batch5-activities/Javascript%20Chess/index.html)
+- [Javascript Playing Cards](/batch5-activities/Playing%20Cards/index.html)
+- [Javascript Quiz Game](/batch5-activities/Quiz%20Game/index.html)
+- [Javascript Book Store Coding Challenge](/batch5-activities/Book%20Store)
