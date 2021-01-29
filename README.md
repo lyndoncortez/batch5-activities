@@ -14,3 +14,4 @@ Below are the list of my projects for AvionSchool Web Development Bootcamp:
 - [Javascript Playing Cards](/batch5-activities/Playing%20Cards/index.html)
 - [Javascript Quiz Game](/batch5-activities/Quiz%20Game/index.html)
 - [Javascript Book Store Coding Challenge](/batch5-activities/Book%20Store)
+- [Banking App JS](/batch5-activities/Banking-App-JS/)
