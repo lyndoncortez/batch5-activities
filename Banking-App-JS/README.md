@@ -2,7 +2,7 @@
 
 💾 You can preview it here: [Banking App](https://lyndoncortez.github.io/batch5-activities/Banking-App-JS/)
 
-Created a Banking App using Vanilla Javascript and styled with Bootstrap. No database used, created users are stored using localStorage.
+Created a Banking App using vanilla Javascript and styled with Bootstrap. No database used, created users are stored using localStorage.
 <br>
 <br>
 Use these credentials to sign in: <br>
