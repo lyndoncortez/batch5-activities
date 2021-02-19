@@ -1,9 +1,8 @@
-# BReact-Snapsplash
+# Snapsplash
 
 💾 You can preview it here: [Snapsplash](https://snapsplash-react.netlify.app/)
 
 React App suing Unsplash API styled with Bootstrap.
 <br>
 <br>
-<img src="https://raw.githubusercontent.com/lyndoncortez/batch5-activities/main/Banking-App-JS/login.png">
-<img src="https://raw.githubusercontent.com/lyndoncortez/batch5-activities/main/Banking-App-JS/dashboard.png">
+<img src="https://github.com/lyndoncortez/batch5-activities/blob/main/React-Snapsplash/Screenshot.png?raw=true">
