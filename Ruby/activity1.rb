@@ -15,11 +15,3 @@ contacts = { "Analyn Cajocson" => {}, "Avion School" => {}}
 contacts["Analyn Cajocson"] = contact_data[0]
 contacts["Avion School"] = contact_data[1]
 
-#4.
-def age(value)
-  puts "How old are you?"
-  puts "In 10 years you will be:\n#{value + 10}"
-  puts "In 20 years you will be:\n#{value + 20}"
-  puts "In 30 years you will be:\n#{value + 30}"
-  puts "In 40 years you will be:\n#{value + 40}"
-end
