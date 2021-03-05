@@ -2,6 +2,7 @@ module PortableDevice
 
   def battery_level
     @percentage
+    puts "Battery level of your #{device} is #{@percentage || "1"}%"
   end
 
   def battery_level=(percentage)
@@ -37,17 +38,20 @@ end
 
 class Laptop < Computer
   include PortableDevice
-  def battery_level
-    @percentage
-    puts "Battery level of your Laptop is #{@percentage || "3"}%"
+
+  attr_reader :device
+
+  def initialize
+    @device = self.class
   end
 end
 
 
 class Phone < Laptop
-  def battery_level
-    @percentage
-    puts "Battery level of your phone is #{@percentage || "1"}%"
+  attr_reader :device
+  
+  def initialize
+    @device = self.class
   end
 end
 
