@@ -27,11 +27,11 @@ loop do
   answer = gets.chomp.downcase
 
   break if answer != "y"
-    puts "The available cities are:"
-    get_city_names(dial_book)
+  puts "The available cities are:"
+  get_city_names(dial_book)
 
-    puts 'What city would you like to know the area code?'
-    city = gets.chomp
-    get_area_code(dial_book, city)
+  puts 'What city would you like to know the area code?'
+  city = gets.chomp
+  get_area_code(dial_book, city)
 
 end
