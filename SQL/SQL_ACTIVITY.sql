@@ -6,12 +6,12 @@ from rental;
 
 
 --1
-select f.title as film_title, f.release_year, f.rating, concat(a.first_name,' ',a.last_name) "actor_full_name"
+select f.title as film_title, f.release_year, f.rating, concat(a.first_name,' ',a.last_name) as actor_full_name
 from film as f
 left join film_actor as fa on f.film_id = fa.film_id
 left join actor as a on fa.actor_id = a.actor_id
 where a.last_name in('Streep', 'Torn') and a.first_name = 'Dan'
-group by f.title, f.release_year, f.rating, concat(a.first_name,' ',a.last_name)
+group by f.title, f.release_year, f.rating, actor_full_name
 order by f.title;
 
 
