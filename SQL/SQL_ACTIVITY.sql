@@ -11,7 +11,6 @@ from film as f
 left join film_actor as fa on f.film_id = fa.film_id
 left join actor as a on fa.actor_id = a.actor_id
 where a.last_name in('Streep', 'Torn') and a.first_name = 'Dan'
-group by f.title, f.release_year, f.rating, actor_full_name
 order by f.title;
 
 
@@ -24,5 +23,4 @@ left join film_category as fc on f.film_id = fc.film_id
 left join category as c on fc.category_id = c.category_id
 where c.category_id = 5
 and a.last_name like 'D%'
-group by actor_full_name, f.title, category_name
 order by actor_full_name;
