@@ -1,6 +1,5 @@
 def centuryFromYear(year)
-  century =  (year + 99) / 100
-  puts century
+  puts century =  (year + 99) / 100
 end
 
 centuryFromYear(1705)
